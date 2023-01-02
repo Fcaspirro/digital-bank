@@ -1,0 +1,35 @@
+:root {
+
+    /* Cores */
+  
+    --light-grayish-blue: hsl(217, 20%, 94%);
+    --background:         hsl(0, 0%, 98%);
+    --white:              hsl(0, 0%, 100%);
+    --black:              hsl(0, 0%, 0%);
+    --text-color:         hsl(233, 8%, 62%);
+    --blue-gradient:        hsl(210, 58%, 45%);
+    --green-gradient:       hsl(173, 65%, 51%);
+    --dark:               hsl(255, 74%, 13%);
+
+    
+    /* Cards */
+
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    
+
+    /* Espaçamento */
+  
+    --px: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    :root { --px: 5rem; }
+}
+
+@media (min-width: 1200px) {
+    :root { --px: 10rem; }
+ 
+}
